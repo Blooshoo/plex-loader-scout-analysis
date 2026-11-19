@@ -1,0 +1,110 @@
+[
+  {
+    "id": "S1",
+    "document": "CASE-FILE.md",
+    "sha256": "9cebc4420a5953bac44347691a9febbe0a6312eceae2a9f053fc43f930fc7d63",
+    "bytes": 15139
+  },
+  {
+    "id": "S2",
+    "document": "EVIDENCE-REGISTER.md",
+    "sha256": "7ccf749ba8fa31e5b897df8d728af0094184f98ce90b14ec038d4622f2acb02d",
+    "bytes": 16097
+  },
+  {
+    "id": "S3",
+    "document": "reports/scout-REPORT.md",
+    "sha256": "89ebc17028945a9fea57a042b6115218c2e80058461aa52224cf6c31e9332afd",
+    "bytes": 19143
+  },
+  {
+    "id": "S4",
+    "document": "reports/scout-GHIDRA-REPORT.md",
+    "sha256": "31b21d6f36a68c5a3b85cfbd4af75539fdfd2826c8797fad36bb97251cfd427c",
+    "bytes": 10697
+  },
+  {
+    "id": "S5",
+    "document": "evidence/static-followup-20261118/LOADER-FINDINGS.md",
+    "sha256": "78b7d8e90f5fc47b6705c1ece2391c94ebc98b32fe8ee307bab4478de2c7c6aa",
+    "bytes": 3319
+  },
+  {
+    "id": "S6",
+    "document": "evidence/chronology-correction-20261118/REPORT.md",
+    "sha256": "88cb279bafeccd5b8101b39a91eb9e8e18ef20918f6e5efc35e7ff30e756d10d",
+    "bytes": 10722
+  },
+  {
+    "id": "S7",
+    "document": "evidence/sandbox-band-experiments-20261118/REPORT.md",
+    "sha256": "2abdb169614820587ff7bfc6e178fda9d74a439c272caa54f3e061d334ecbf5f",
+    "bytes": 11891
+  },
+  {
+    "id": "S8",
+    "document": "evidence/sandbox-canaries-controls-20261118/REPORT.md",
+    "sha256": "5a029749a913e18a4364bf890325e85e003678e739df1994827f788a9b808296",
+    "bytes": 8763
+  },
+  {
+    "id": "S9",
+    "document": "evidence/sandbox-fuller-20261119/REPORT.md",
+    "sha256": "5a3e111202688e7d83e51f935277dee9c4aa59e6593cd7be538f97ac3475c002",
+    "bytes": 4094
+  },
+  {
+    "id": "S10",
+    "document": "evidence/immutable-vmtools-20261119/REPORT.md",
+    "sha256": "b6e578d4290482ed6b616fc48817b052f9efe49f41540d65d84ef25efe570a6b",
+    "bytes": 6542
+  },
+  {
+    "id": "S11",
+    "document": "evidence/vmtools-presence-20261119/REPORT.md",
+    "sha256": "8162c63a09a3168d38ab6979acd2ecc53b63281ea174074a326163a2c3b10369",
+    "bytes": 2799
+  },
+  {
+    "id": "S12",
+    "document": "evidence/sandbox-fuller-20261119/FULLER-LIMITS-20261119.md",
+    "sha256": "f4ab9e315adbc7bae5f8849c309e50cd7288176c2cade1237900dae8f933f967",
+    "bytes": 3379
+  },
+  {
+    "id": "S13",
+    "document": "evidence/vt-publication-review-20261118/REPORT.md",
+    "sha256": "a7adb8c5b176382b33449ec4df30092d74e1ac224f9a6c98d05df550508af385",
+    "bytes": 5530
+  },
+  {
+    "id": "S14",
+    "document": "evidence/loader-failure-experiment-20261119/REPORT.md",
+    "sha256": "d7198969466f741f1057e65036dec7e49d2ccf476ce97cf45f0b59b77bd23b78",
+    "bytes": 7211
+  },
+  {
+    "id": "S15",
+    "document": "evidence/loader-failure-experiment-20261119/SUMMARY.json",
+    "sha256": "87ca9622484444dc3cd3e2180fada20f8cd52622e0a8348a42a870afe2770ac2",
+    "bytes": 3835
+  },
+  {
+    "id": "S16",
+    "document": "evidence/loader-failure-experiment-20261119/STAGE-EXCLUSION-CHECKS.json",
+    "sha256": "763b4b069b3717e861fcae32c88f1c7ac839723cf51d7293fc8fc95df2d286c3",
+    "bytes": 600
+  },
+  {
+    "id": "S17",
+    "document": "evidence/loader-failure-experiment-20261119/CLEANUP.json",
+    "sha256": "1168cd4f48db31e04f9dab942f74c30336949918f2c27745cafa162a4869be10",
+    "bytes": 49
+  },
+  {
+    "id": "S18",
+    "document": "evidence/loader-failure-experiment-20261119/guest.py",
+    "sha256": "5df031b82d8b50c6a8e0c53334ead7ee560f6c55e485cf341141a8aa593c9922",
+    "bytes": 7866
+  }
+]

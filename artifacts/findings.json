@@ -1,0 +1,77 @@
+{
+  "schema": "sanitized-derived-findings/v1",
+  "status": "reviewed-owner-authorized-publication",
+  "as_of": "2026-11-19",
+  "loader_failure_experiment": {
+    "status": "completed-bounded-failure-paths",
+    "sources": [
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18"
+    ],
+    "refused": {
+      "seconds": 0.02560399399999369,
+      "exit": 0,
+      "fork": false,
+      "setsid": false
+    },
+    "http404": {
+      "seconds": 0.02534743800001138,
+      "exit": 0,
+      "fork": true,
+      "setsid": true,
+      "stdio_socket_duplication": true,
+      "requested_path": "/agent.exe"
+    },
+    "delivered_payload_bytes": 0,
+    "next_stage_exec_observed": false,
+    "scope": "instrumented constructor-host/strace elapsed, not VM lifetime; selected-root snapshots, not whole-disk proof",
+    "full_chain_tested": false,
+    "real_vmware_tested": false
+  },
+  "samples": [
+    {
+      "role": "loader",
+      "sha256": "c7d514f7aa568b42380b18e6536d58e746e262d61b59b07e9b4ff3290018b050",
+      "bytes": 1036800
+    },
+    {
+      "role": "scout",
+      "sha256": "409301c30b0fd8571345f150b352bac8f97de72cff61703c3ac54c3b58bd33ca",
+      "bytes": 6287522
+    }
+  ],
+  "historical": {
+    "owner_api_activity": "application-log-supported",
+    "scout_execution": "not-directly-proven",
+    "report_delivery": "unconfirmed",
+    "initial_access": "suspected-chain-not-reproduced"
+  },
+  "tool_comparison": {
+    "source": "S10",
+    "control": {
+      "exit": 0,
+      "seconds": 0.125424
+    },
+    "tools": {
+      "exit": 0,
+      "seconds": 0.125321
+    },
+    "hosts_scanned_each": 2,
+    "synthetic_confirmed_candidates_each": 1,
+    "extra_exec_observed": false,
+    "write_mode_opens_observed": false,
+    "reports_byte_identical": false,
+    "causal_equivalence_claim": false
+  },
+  "limits": [
+    "derived summaries, not raw telemetry",
+    "no acceptance-tested PCAP",
+    "selected syscall classes and bounded strings",
+    "wildcard synthetic DNS confounder",
+    "not original host or argv",
+    "tool preparation differs beyond binary presence"
+  ]
+}

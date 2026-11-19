@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "all files UTF-8, no NUL",
+    "JSON parses",
+    "no non-allowlisted live URL or original user/mount path patterns",
+    "relative Markdown targets exist"
+  ],
+  "issues": [],
+  "missing_links": [],
+  "caveat": "Pattern review is not independent human redaction approval; loader success path remains untested."
+}
